@@ -1,0 +1,36 @@
+.container.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    justify-content: space-between;
+}
+
+.footer .text h4 {
+    color: whitesmoke;
+    font-size: 4rem;
+    text-align: center;
+    margin: 10px 0 0 0px;
+    padding: 5px 0 10px 0px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li {
+    margin: 7px;
+    align-items: center;
+}
+.footer ul li i {
+    font-size: 25px; 
+    color: #EB6308;
+}
+
+

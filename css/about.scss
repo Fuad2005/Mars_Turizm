@@ -1,0 +1,145 @@
+.image-section {
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  object-fit: cover;
+}
+#about-company {
+  position: relative;
+  background: rgb(54, 98, 201);
+  min-height: 100vh;
+  background: radial-gradient(
+    circle,
+    #4498a0,
+    #161f32,
+    rgb(15, 15, 12) 68%,
+    rgb(20, 26, 26) 83%
+  );
+  .text-box-left {
+    position: relative;
+    top: 32%;
+    left: 13%;
+    line-height: 30px;
+
+    h3 {
+      color: white;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p {
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: rgb(126, 195, 207);
+    position: absolute;
+  }
+
+  &::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: rgb(126, 195, 207);
+    position: absolute;
+    top: 48%;
+    left: 23.5%;
+  }
+
+  .img-box-right {
+    .img-right {
+      position: relative;
+      width: 100%;
+      height: 40%;
+      margin-top: 70px;
+      margin-left: 140px;
+    }
+  }
+
+  .txt-box-left {
+    position: relative;
+    top: 32%;
+    left: 30%;
+    line-height: 26px;
+    .text2 {
+      position: absolute;
+      color: white;
+      font-weight: bold;
+      bottom: 10px;
+    }
+    .long-text {
+      position: absolute;
+      color: white;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+  .img-box2 {
+    .image2 {
+      width: 100%;
+      height: 100%;
+      margin-top: 150px;
+      margin-left: 65px;
+    }
+  }
+}
+
+///////////////////////section finish//////////////////////////////////////////////
+//////////about company fisinh/////////////////////////////////////////////////////
+
+@media (max-width: 576px) {
+  
+    
+//     .text-box-left {
+//       position: absolute;
+//       width: 60%;
+//       top: 10%;
+
+//       position: relative;
+//       h3 {
+//         font-size: 15px;
+//       }
+//       p {
+//         font-size: 15px;
+//       }
+//     }
+
+//     &::after {
+//       opacity: 0;
+//       visibility: hidden;
+//     }
+//     .img-box-right{
+        
+//         .img-right{
+//             position: relative;
+//             right: 40%;
+//             width: 105%;
+//             top: 140px;
+//         }
+//     }
+//     .img-box2{
+//         position: relative;
+//         right: 30%;
+//         .image2{
+//             width: 115%;
+           
+//         }
+//     }
+   
+//     .txt-box-left{
+//         width: 100%;
+        
+        
+//         .text2{
+           
+//         }
+//     }
+//     .long-text {
+//         margin-left: -50px;
+//         margin-right: 100px;
+//     }
+//   }
+}
