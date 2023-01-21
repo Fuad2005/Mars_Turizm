@@ -1,0 +1,46 @@
+.home-section {
+  width: 100%;
+  height: 90vh;
+}
+
+.home-section .bg-box {
+  height: 90vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.home-section .bg-box #myVideo {
+  width: 100%;
+}
+
+.home-section .bg-box .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.home-section .bg-box .overlay .text {
+  margin-top: 22%;
+  margin-left: 50%;
+  border-radius: 20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 56%;
+  padding: 50px 15px;
+}
+
+.home-section .bg-box .overlay .text h4 {
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .home-section .bg-box .overlay .text h4 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

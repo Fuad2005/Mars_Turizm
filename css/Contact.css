@@ -18,3 +18,13 @@
 .form-border{
   border-radius: 10px;
 }
+
+.ftco-section {
+  background: url(../pexels-spacex-586030.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.773);
+  background-blend-mode: darken;
+}
