@@ -1,0 +1,75 @@
+.image-section {
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#about-company {
+  position: relative;
+  background: rgb(54, 98, 201);
+  min-height: 100vh;
+  background: radial-gradient(circle, #4498a0, #161f32, rgb(15, 15, 12) 68%, rgb(20, 26, 26) 83%);
+}
+#about-company .text-box-left {
+  position: relative;
+  top: 32%;
+  left: 13%;
+  line-height: 30px;
+}
+#about-company .text-box-left h3 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#about-company .text-box-left p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#about-company::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(126, 195, 207);
+  position: absolute;
+}
+#about-company::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: rgb(126, 195, 207);
+  position: absolute;
+  top: 48%;
+  left: 23.5%;
+}
+#about-company .img-box-right .img-right {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  margin-top: 70px;
+  margin-left: 140px;
+}
+#about-company .txt-box-left {
+  position: relative;
+  top: 32%;
+  left: 30%;
+  line-height: 26px;
+}
+#about-company .txt-box-left .text2 {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  bottom: 10px;
+}
+#about-company .txt-box-left .long-text {
+  position: absolute;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#about-company .img-box2 .image2 {
+  width: 100%;
+  height: 100%;
+  margin-top: 150px;
+  margin-left: 65px;
+}/*# sourceMappingURL=about.css.map */
