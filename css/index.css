@@ -1,5 +1,5 @@
 body {
-  background-color: #082032;
+  background-color: #000;
 }
 
 .header {
@@ -78,6 +78,7 @@ body {
 }
 
 .container.footer {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,5 +142,16 @@ body {
   .header .menu i {
     display: block;
   }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 30px;
+  background-color: #5c1406;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: #FF4C29;
 }
 /*# sourceMappingURL=index.css.map */

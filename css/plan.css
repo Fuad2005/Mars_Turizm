@@ -1,0 +1,274 @@
+#packets {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../mars-img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  position: relative;
+}
+
+#packets .paket {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: #020100a9;
+}
+
+#packets .paket h1 {
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+#ticket {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#ticket .elevator {
+  padding: 30px 0px 20px 20px;
+}
+
+#ticket .elevator p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #EB6308;
+}
+
+#ticket .travelone {
+  width: 80%;
+  margin: auto;
+}
+
+#ticket .travelone .travel {
+  background-color: #EB6308;
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 80%;
+  height: 95vh;
+  position: relative;
+}
+
+#ticket .travelone .travel i {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 30px;
+}
+
+#ticket .travelone .travel .travel1 {
+  position: absolute;
+  top: 28%;
+  left: 6%;
+  width: 90%;
+}
+
+#ticket .travelone .travel .travel1 h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+#ticket .travelone .travel .travel1 p {
+  color: white;
+}
+
+#ticket .travelone .travel .travel1 a {
+  text-decoration: none;
+  background-color: white;
+  color: #EB6308;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#ticket .travelone .travel .travel1 i {
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  font-size: 25px;
+}
+
+#ticket .travelone .travel .travel1 .eat i {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+#ticket .travelone .travel .travel1 .night i {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+#ticket .travelone .travel .travel1 .nightday i {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+#tickets {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+#tickets .raket {
+  padding: 30px 0px 20px 20px;
+}
+
+#tickets .raket p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #EB6308;
+}
+
+#tickets .traveltwo {
+  width: 80%;
+  margin: auto;
+}
+
+#tickets .traveltwo .travel2 {
+  background-color: #EB6308;
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 80%;
+  height: 95vh;
+  position: relative;
+}
+
+#tickets .traveltwo .travel2 i {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 30px;
+}
+
+#tickets .traveltwo .travel2 .travel3 {
+  position: absolute;
+  top: 28%;
+  left: 6%;
+  width: 90%;
+}
+
+#tickets .traveltwo .travel2 .travel3 h1 {
+  text-align: center;
+  font-size: 30px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+#tickets .traveltwo .travel2 .travel3 p {
+  color: white;
+}
+
+#tickets .traveltwo .travel2 .travel3 a {
+  text-decoration: none;
+  background-color: white;
+  color: #EB6308;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#tickets .traveltwo .travel2 .travel3 i {
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  font-size: 25px;
+}
+
+#tickets .traveltwo .travel2 .travel3 .eat i {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+#tickets .traveltwo .travel2 .travel3 .night i {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+#tickets .traveltwo .travel2 .travel3 .nightday i {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+
+.elevator-icon {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+  #packets {
+    width: 100%;
+    position: relative;
+  }
+  #packets .paket {
+    position: absolute;
+    height: 30%;
+    top: 60%;
+  }
+  #ticket .elevator p {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  #ticket .travelone .travel {
+    height: 95vh;
+    margin-bottom: 10px;
+  }
+  #ticket .travelone .travel a {
+    margin-left: 50%;
+  }
+  #tickets .raket p {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  #tickets .traveltwo .travel2 {
+    height: 95vh;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  #ticket .elevator p {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  #ticket .travelone .travel {
+    height: 95vh;
+    margin-bottom: 10px;
+  }
+  #tickets .traveltwo .travel2 {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=plan.css.map */

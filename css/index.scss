@@ -1,5 +1,5 @@
 body {
-    background-color: #082032;
+    background-color: #000;
 }
 .header{
     padding-top: 20px;
@@ -65,6 +65,7 @@ body {
 }
 
 .container.footer {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -112,4 +113,18 @@ body {
             }
         }
     }
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 30px;
+    background-color: #5c1406;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #FF4C29;
+
 }
